@@ -59,7 +59,7 @@
    59  podman run -it --rm docker.io/wpscanteam/wpscan --url mwfordesigns.com
    60  docker run -it --rm wpscanteam/wpscan   --url http://your-site.com   --random-user-agent
    61  docker run -it --rm wpscanteam/wpscan   --url https://mwfordesigns.com/   --random-user-agent
-   62  wpscan --url http://mwfordesigns.com --api-token hSV7MazVGLnFcQ01aIIQN1lZXHaaHh24QE4rvQnyd90
+   62  wpscan --url http://mwfordesigns.com --api-token yeafuckingright
    63  hSV7MazVGLnFcQ01aIIQN1lZXHaaHh24QE4rvQnyd90
    64  sudo apt install docker.io
    65  sudo systemctl enable docker
